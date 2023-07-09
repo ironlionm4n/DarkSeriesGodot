@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://ccvf46q6bd8jt"]
+
+[ext_resource type="PackedScene" uid="uid://wyjpe7307i4t" path="res://Scenes/GroundTileMap.tscn" id="1_dbwev"]
+[ext_resource type="PackedScene" uid="uid://60711ytkx04h" path="res://Scenes/Player.tscn" id="2_00xoi"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Ground" parent="." instance=ExtResource("1_dbwev")]
+position = Vector2(42, 477)
+
+[node name="PlayerBody" parent="." instance=ExtResource("2_00xoi")]
+position = Vector2(347, 324)
+
+[node name="AnimatedSprite2D" parent="PlayerBody" index="1"]
+frame_progress = 0.402756
+
+[editable path="PlayerBody"]

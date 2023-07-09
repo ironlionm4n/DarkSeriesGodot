@@ -11,9 +11,15 @@ config_version=5
 [application]
 
 config/name="DarkSeriesGodot"
+run/main_scene="res://Scenes/Game.tscn"
 config/features=PackedStringArray("4.0", "Forward Plus")
 config/icon="res://icon.svg"
 
 [dotnet]
 
 project/assembly_name="DarkSeriesGodot"
+
+[layer_names]
+
+2d_physics/layer_1="Ground"
+2d_physics/layer_2="GroundDecorations"
