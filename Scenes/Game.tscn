@@ -9,9 +9,6 @@
 position = Vector2(42, 477)
 
 [node name="PlayerBody" parent="." instance=ExtResource("2_00xoi")]
-position = Vector2(347, 324)
-
-[node name="AnimatedSprite2D" parent="PlayerBody" index="1"]
-frame_progress = 0.402756
-
-[editable path="PlayerBody"]
+position = Vector2(330, 440)
+JumpVelocity = -250.0
+runSpeed = 100.0
